@@ -1,0 +1,58 @@
+ h1 {
+   font-size: 3.0em;
+   text-align: center;
+   color: #42f4f4;
+}
+ 
+div.scrollmenu {
+  background-color: #d110d1;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display; inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+body {
+	font-family: consolas;
+}
+
+.submenu {
+	display: none;
+}
+.mainmenu {
+	float: left;
+	margin: 1px;
+	line-height: 30px;
+	background-color: #0769AD;
+}
+
+.mainmenu a{
+	margin: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.submenu ul{
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+}
+.submenu li {
+	background-color: #EEEEEE;
+	margin:1px;
+	line-height: 30px;	
+}
+
+.submenu li a{
+	color: #000000;	
+}
